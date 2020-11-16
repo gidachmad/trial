@@ -17,7 +17,7 @@ public class TP02 {
 		int max = nilai.length - 1;
 
 		for (int j = max; j >= 0; j--) {
-			System.out.print(nilai[j] + " ");
+			System.out.print(nilai[j] + "\n");
 		}
 
 	}

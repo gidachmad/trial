@@ -24,7 +24,7 @@ public class Jurnal02 {
 		for (int i = 0; i < poin.size(); i++) {
 			System.out.print(poin.get(i) + " ");
 		}
-
+		System.out.print("\n");
 
 	}
 }
