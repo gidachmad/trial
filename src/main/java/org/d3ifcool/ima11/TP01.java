@@ -19,7 +19,8 @@ public class TP01 {
 		int min = 1;
 		int range = max - min + 1;
 		int pemenang = (int)(Math.random() * range) + min;
+		String pemenangKekw = arisan[pemenang];
 
-		System.out.println(arisan[pemenang]);
+		System.out.print(pemenangKekw);
 	}
 }
