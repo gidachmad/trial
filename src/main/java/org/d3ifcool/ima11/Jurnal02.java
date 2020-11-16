@@ -20,11 +20,12 @@ public class Jurnal02 {
 		}
 
 		Collections.sort(poin, Collections.reverseOrder());
+		int jarak = poin.size() - 1;
 
-		for (int i = 0; i < poin.size(); i++) {
+		for (int i = 0; i < jarak; i++) {
 			System.out.print(poin.get(i) + " ");
 		}
-		System.out.print("\n");
+		System.out.print(poin.get(jarak) + "\n");
 
 	}
 }
