@@ -26,7 +26,7 @@ public class Jurnal01 {
 		kondisi = true;
 
 		int pemenang = (int)(Math.random() * range) + min;
-		System.out.print(namaList.get(pemenang));
+		System.out.printf("%s\n",namaList.get(pemenang));
 
 	}
 }

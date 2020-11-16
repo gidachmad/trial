@@ -20,6 +20,6 @@ public class TP01 {
 		int range = max - min + 1;
 		int pemenang = (int)(Math.random() * range) + min;
 
-		System.out.print(arisan[pemenang]);
+		System.out.println(arisan[pemenang]);
 	}
 }
