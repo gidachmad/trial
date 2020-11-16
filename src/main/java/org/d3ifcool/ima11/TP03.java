@@ -40,6 +40,6 @@ public class TP03 {
 			}
 
 		}
-		System.out.print(modus);
+		System.out.print(modus + "\n");
 	}
 }
